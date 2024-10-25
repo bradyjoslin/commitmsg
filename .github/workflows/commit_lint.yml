@@ -1,4 +1,4 @@
-name: CI
+name: commit_lint
 
 on: [push]
 
