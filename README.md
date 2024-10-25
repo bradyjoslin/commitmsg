@@ -1,6 +1,4 @@
-# commitmsg
-
-Sample repo showing how to leverage commitlint to enforce [conventional commits](https://www.conventionalcommits.org/).
+Sample repo showing how to leverage [commitlint](https://commitlint.js.org/) to enforce [conventional commits](https://www.conventionalcommits.org/).
 
 ## Local Setup
 
