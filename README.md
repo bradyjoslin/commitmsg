@@ -12,6 +12,16 @@ npm i
 
 If you do not currently have npm installed, recommend using [nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating).
 
+## Prompt
+
+For help authoring compliant commit messages, optionally create your commit messages using `commitlint/prompt`.
+
+```shell
+npm run commit
+```
+
+You will be prompted the enter the relevant pieces of your commit messages, then a commit will be made using a message built by your responses to the prompts.
+
 ## CI Linting
 
 A GitHub workflow enforces linting on push, where the Action will fail if pushed commits don't adhere to conventional commit formatting.
