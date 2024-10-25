@@ -11,4 +11,6 @@ jobs:
           fetch-depth: 0
           
       - name: Validate current commit (last commit) with commitlint
-        run: npx commitlint --last --verbose
+        run: |
+          npm i
+          npx commitlint --last --verbose
